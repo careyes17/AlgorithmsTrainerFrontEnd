@@ -10,6 +10,9 @@ This repository contains the user interface and its logic for the AlgoTrainer we
 ## UI (React Frontend)
 The UI is written in React.js.
 
+## Backend
+All backend microservices are interacted with via an API gateway written in Node.js.
+
 ## User Auth (Backend)
 The user auth backend is written in Node.js, making use of the express package. The auth system is oriented around JavaScript Web Tokens (JWT).
 
