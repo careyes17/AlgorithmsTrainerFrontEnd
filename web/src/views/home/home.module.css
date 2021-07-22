@@ -1,0 +1,154 @@
+@media only screen and (max-width: 375px) {
+  .title {
+    font-size: 3em !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .items {
+    flex-flow: column !important;
+  }
+
+  .item {
+    width: 80% !important;
+  }
+}
+
+.root {
+  width: 100vw;
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1vh 2vh;
+}
+
+.banner {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  width: 100%;
+  padding: 4vh;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 40vh;
+  width: 100%;
+  background-color: var(--color-secondary);
+  text-align: center;
+
+  margin-top: 2vh;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  max-height: 265px;
+  width: 25%;
+  min-width: 200px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(255, 255, 255, 0.6);
+}
+
+
+.itemTitle {
+  font-weight: bold;
+  color: var(--color-text-bright) !important;
+}
+
+
+.itemText {
+  margin-top: 10px;
+  color: var(--color-text-light);
+}
+
+.minIconSize {
+  min-width: 45px;
+  min-height: 45px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  width: 100%;
+
+  margin-top: 1vh;
+}
+
+.footerFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  width: auto;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.footerItem {
+  display: inline;
+  padding: 0 4px 0 4px;
+  color: var(--color-text-bright);
+}
+
+.footerItem a {
+  text-decoration: none !important;
+  color: var(--color-text-dark) !important;
+}
+
+.svgLogo {
+  height: 10em;
+  width: 10em;
+  min-height: 10em;
+  min-width: 10em;
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 50px 25px 50px;
+}
+
+.title {
+  font-size: 4em;
+  color: white;
+}
+
+.button {
+  margin-top: 15px;
+  font-size: 1.3em;
+  padding: 2px 40px;
+  border-radius: 2px;
+  border: 0px;
+  background-color: var(--color-light);
+  color: var(--color-text-bright);
+}
+
+.button:active {
+  background-color: var(--color-button-active);
+}

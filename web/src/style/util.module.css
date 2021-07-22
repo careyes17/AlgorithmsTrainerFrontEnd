@@ -1,0 +1,52 @@
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.anchor {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.error {
+  color: var(--color-failure);
+}
+
+.customError {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  color: var(--color-failure);
+  text-align: center;
+  width: 100%;
+}
+
+.inputTitle {
+  color: var(--color-text-light);
+}
+
+.linkColor {
+  color: var(--color-light) !important;
+}
+
+.linkColor:active {
+  color: var(--color-button-active) !important;
+}
+
+.button {
+  border-radius: 2px;
+  border: 0px;
+  background-color: var(--color-light);
+  color: var(--color-text-bright);
+  min-width: max-content;
+  min-height: max-content;
+  padding: 4px 16px;
+}
+
+.button:active {
+  background-color: var(--color-button-active);
+}

@@ -1,0 +1,119 @@
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 80% !important;
+    min-width: 260px !important;
+  }
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 10vh 0;
+  min-height: 92vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: max-content;
+  width: 480px;
+  border-radius: 3px;
+  background-color: var(--color-secondary);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: max-content;
+  width: 100%;
+  padding: 15px 15px 0 15px;
+  background-clip: content-box;
+}
+
+.profileIcon {
+  padding-top: 15px;
+}
+
+.accountUsername {
+  padding: 15px 0;
+  color: var(--color-text-bright);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 100%;
+  padding: 15px 15px 0 15px;
+  background-clip: content-box;
+  background-color: var(--color-bright);
+}
+
+.link {
+  line-height: 2rem !important;
+  float: right;
+  padding-right: 15px;
+  text-decoration: none !important;
+  color: var(--color-text-coal);
+}
+
+.link:hover {
+  color: var(--color-text-coal);
+}
+
+.link:active {
+  color: rgb(0, 0, 0, 0.45);
+}
+
+.problems {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 100%;
+  padding: 15px;
+  background-clip: content-box;
+  background-color: var(--color-bright);
+}
+
+.problems > div:last-of-type {
+  padding: 0 15px 15px 15px !important;
+}
+
+.problemTitle {
+  background-clip: content-box;
+  background-color: grey;
+  padding: 15px 15px 0 15px;
+}
+
+.loadMore {
+  margin-bottom: 15px;
+}
+
+.leftTextPad {
+  padding-left: 1em;
+}
+
+.content {
+  padding: 0 15px 0 15px;
+  line-height: 2em;
+  width: 100%;
+  color: white;
+  background-clip: content-box;
+  background-color: rgb(45, 45, 45);
+}
+
+.content span {
+  padding-left: 1em;
+}
+
+.contentWrapper {
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+}

@@ -1,0 +1,8 @@
+.wrapper {
+    padding: 0 15px 0 15px;
+    width: 100%;
+}
+
+.wrapper pre {
+    margin: 0 !important;
+}

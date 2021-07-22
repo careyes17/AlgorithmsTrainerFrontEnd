@@ -1,0 +1,63 @@
+.wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 375%;
+    width: 30vh;
+    max-width: 200px;
+    background-color: var(--color-secondary-dark);
+}
+
+.innerWrapper {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.username {
+    line-height: max(8vh, 50px);
+    width: calc(100% - 7vh);
+    margin-right: 7vh;
+    text-align: center;
+    color: var(--color-text-light);
+}
+
+.profile {
+    position: relative;
+    margin-right: 2vh;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.line {
+    width: 85%;
+    height: 1px;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    cursor: pointer;
+    color: var(--color-text-light) !important;
+}
+
+.item:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.elevatedZIndex {
+    z-index: 100;
+}

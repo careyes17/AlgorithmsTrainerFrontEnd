@@ -1,0 +1,62 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: max(8vh, 50px);
+  z-index: -1;
+  height: 300px;
+  width: 300px;
+  background-color: var(--color-secondary-dark);
+  cursor: default;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: 8%;
+}
+
+.icon:hover {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+
+.languageWrapper {
+  height: 60%;
+  margin-right: 4%;
+  padding: 0 2%;
+  border-radius: 3px;
+  border: 1px solid var(--color-bright);
+  cursor: pointer;
+}
+
+.centerLanguage {
+  height: 100%;
+  min-width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languageName {
+  margin-left: 8%;
+  color: white;
+  white-space: nowrap;
+  float: right;
+}

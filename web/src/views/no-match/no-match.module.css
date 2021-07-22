@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92vh;
+  width: 100vw;
+}
+
+.notFound {
+  font-size: 3em;
+  color: var(--color-text-bright) !important;
+  margin-bottom: 0 !important;
+}
+
+.notFoundSubtitle {
+  font-size: 2em;
+  color: var(--color-text-bright) !important;
+  margin-bottom: 0 !important;
+}

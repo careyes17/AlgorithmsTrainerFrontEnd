@@ -1,0 +1,63 @@
+@media only screen and (max-width: 640px) {
+    .wrapper {
+        width: 270px !important;
+    }
+}  
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 70vh;
+    max-height: 800px;
+    width: 300px;
+    max-width: 300px;
+    background-color: var(--color-secondary-dark);
+}
+
+.innerWrapper {
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.left {
+    margin-left: 1vh;
+}
+
+.loading {
+    line-height: 54vh;
+    text-align: center;
+}
+
+.problem {
+    height: 4em;
+    line-height: 4em;
+    margin: 0 1em 0 1em;
+    padding-left: 6%;
+    color: var(--color-text-dark);
+    background-color: rgb(255, 255, 255, 0.1);
+
+    cursor: pointer;
+}
+
+.problem:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.problem:first-child {
+    margin-top: 2vh;
+}
+
+.problem:last-child {
+    margin-bottom: 2vh;
+}
+
+.floatRight {
+    float: right;
+    padding-right: 6%;
+}

@@ -1,0 +1,64 @@
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: calc(20% + 10px);
+  width: 100%;
+  line-height: calc(((0.30 * 84vh) * 0.20));
+  background-color: var(--color-secondary);
+  white-space: nowrap;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tabs::-webkit-scrollbar {
+  height: 5px;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3vh 0 3vh;
+  height: 100%;
+  color: white;
+}
+
+.tab:hover {
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.verticalBar {
+  width: 1px;
+  height: 60%;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(226, 63, 63);
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 50%;
+  margin-left: 10px;
+}

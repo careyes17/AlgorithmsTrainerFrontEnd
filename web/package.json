@@ -1,0 +1,45 @@
+{
+  "name": "algorithms-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "codemirror": "^5.58.1",
+    "hamburger-react": "^2.4.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.14.2",
+    "react-icons": "^4.1.0",
+    "react-markdown": "^5.0.3",
+    "react-onclickoutside": "^6.9.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-syntax-highlighter": "^15.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "use-resize-observer": "^7.0.0"
+  }
+}
